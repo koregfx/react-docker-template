@@ -22,7 +22,7 @@
     "build-docker": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gitinit": "git checkout --orphan tmp-master && git add -A && git commit -m 'inicial' && git branch -D master && git branch -m master && git push -f origin master "
+    "project-init": "git remote remove origin && npm i"
   },
   "eslintConfig": {
     "extends": [
