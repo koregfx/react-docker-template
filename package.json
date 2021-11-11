@@ -18,6 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-docker": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "build-docker": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
